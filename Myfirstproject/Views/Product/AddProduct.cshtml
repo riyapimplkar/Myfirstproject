@@ -1,0 +1,433 @@
+﻿
+@{
+    ViewBag.Title = "AddProduct";
+    Layout = "~/Views/Shared/_Layout - Admin.cshtml";
+}
+
+<font color="Blue"><h3> Product Details & Customer Requirement</h3></font>
+<style>
+    td {
+        border: double;
+        padding: 10px;
+    }
+</style>
+
+<table>
+    <tr>
+        <td>
+            <h4>Sr.No</h4>
+        </td>
+        <td>
+            <h4>Product Name</h4>
+        </td>
+        <td>
+            <h4>Quantity</h4>
+        </td>
+        <td>
+            <h4>Edition</h4>
+        </td>
+        <td>
+            <h4>Prize</h4>
+        </td>
+        <td>
+            <h4>Customer Review</h4>
+        </td>
+        <td>
+            <h4>Product Return Policy</h4>
+        </td>
+        <td>
+            <h4>Customer Name & Details</h4>
+        </td>
+        <td>
+            <h4>Book Demanding & Prize</h4>
+        </td>
+        <td>
+            <h4>Check Info</h4>
+        </td>
+
+
+
+
+    </tr>
+    <tr>
+        <td>
+            <h5>1.</h5>
+        </td>
+        <td>
+            <h5>
+                MARGASHTHA
+            </h5>
+            <img src="~/Content/poem 1.jpg" width="100" height="100" />
+
+        </td>
+        <td>
+            <h5>250 Book Available</h5>
+        </td>
+        <td>
+            <h5>3rd</h5>
+        </td>
+        <td>
+            <h5>M.R.P. 333</h5>
+        </td>
+        <td>
+            <h5>Amazing</h5>
+        </td>
+
+        <td>
+            <h5>10 Book Copy Return</h5>
+        </td>
+        <td>
+            <h5>
+                <b>Avinash Agrawal</b><br>
+                Rani Nagar, Satara<br>
+                Ph.No. 8056963255
+            </h5>
+        </td>
+        <td>
+            <h5><b>MARGASHTHA</b><br>
+            1 Book Demanding<br>
+            M.R.P. 333</h5>
+        </td>
+        <td>
+            <input type="button" value="Edit" class="btn btn-success" /></br>
+        </td>
+
+    </tr>
+    <tr>
+        <td>
+            <h5>2.</h5>
+        </td>
+        <td>
+            <h5>
+                VIRANGULA
+            </h5>
+            <img src="~/Content/poem 2.jpg" width="100" height="100px" />
+
+        </td>
+        <td>
+            <h5>100 Book Available</h5>
+        </td>
+        <td>
+            <h5>2nd</h5>
+        </td>
+        <td>
+            <h5>M.R.P.190</h5>
+        </td>
+        <td>
+            <h5>Nice Book</h5>
+        </td>
+        <td>
+            <h5>15 Book Copy Return</h5>
+        </td>
+        <td>
+            <h5>
+                <b>Riya Rane</b><br>
+                Dadar,Mumbai<br>
+                Ph.No.7465142589
+            </h5>
+        </td>
+        <td>
+            <h5><b>VIRANGULA</b><br>
+            3 Book Demanding<br>
+            M.R.P. 570<br>
+            (20rs off)</h5>
+        </td>
+        <td>
+            <input type="button" value="Edit" class="btn btn-success" /></br>
+        </td>
+
+    </tr>
+    <tr>
+        <td>
+            <h5>3.</h5>
+        </td>
+        <td>
+            <h5>
+                KAVITECHYA GAVAT
+            </h5>
+            <img src="~/Content/POEM6.jpg" width="100" height="100px" />
+        </td>
+        <td>
+            <h5>100 Book Available</h5>
+        </td>
+        <td>
+            <h5>1st</h5>
+        </td>
+        <td>
+            <h5>M.R.P.125</h5>
+        </td>
+        <td>
+            <h5>Very Good</h5>
+        </td>
+        <td>
+            <h5>4 Book Copy Return</h5>
+        </td>
+        <td>
+            <h5>
+                <b>Sanket Kamble</b><br>
+                Pune<br>
+                Ph.No 7465124135
+            </h5>
+        </td>
+        <td>
+            <h5><b>KAVITECHYA GAVAT</b><br>
+            1Book Demanding<br>
+            M.R.P. 125</h5>
+        </td>
+        <td>
+            <input type="button" value="Edit" class="btn btn-success" /></br>
+        </td>
+
+    </tr>
+    <tr>
+        <td>
+            <h5>4.</h5>
+        </td>
+        <td>
+            <h5>
+                ENVIRONMENTAL GEOGRAPHY
+            </h5>
+            <img src="~/Content/environmental.jpg" width="100" height="100px" />
+        </td>
+        <td>
+            <h5>50 Book Available</h5>
+        </td>
+        <td>
+            <h5>1st</h5>
+        </td>
+        <td>
+            <h5>M.R.P.470</h5>
+        </td>
+        <td>
+            <h5>NO.1</h5>
+        </td>
+        <td>
+            <h5>1 Book Copy Return</h5>
+        </td>
+        <td>
+            <h5>
+                <b>Sanskruti Jiwane</b><br>
+                Sardar Chowk, Chandrapur<br>
+                Ph.No 7025846987
+            </h5>
+        </td>
+        <td>
+            <h5>
+                <b>ENVIRONMENTAL GEOGRAPHY</b><br>
+                6Book Demanding<br>
+                M.R.P.2820<br>
+                (320 off)
+            </h5>
+        </td>
+        <td>
+            <input type="button" value="Edit" class="btn btn-success" /></br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h5>5.</h5>
+        </td>
+        <td>
+            <h5>
+                INDIAN POLITY
+            </h5>
+            <img src="~/Content/INDIANPOLITY.jpg" width="100" height="100px" />
+
+        </td>
+        <td>
+            <h5>32 Book Available</h5>
+        </td>
+        <td>
+            <h5>1st</h5>
+        </td>
+        <td>
+            <h5>M.R.P.735</h5>
+        </td>
+        <td>
+            <h5>NO.1</h5>
+        </td>
+        <td>
+            <h5>No Book Copy Return</h5>
+        </td>
+        <td>
+            <h5><b>Abhishek Pazare</b><br>
+            Ramai chowk, Bhadrawati<br>
+            Ph.No.8564325745</h5>
+        </td>
+        <td>
+            <h5><b>INDIAN POLITY</b><br>
+            2Book Demanding<br>
+            M.R.P.1470</h5>
+        </td>
+        <td>
+            <input type="button" value="Edit" class="btn btn-success" /></br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h5>6.</h5>
+        </td>
+        <td>
+            <h5>
+                STAFF SELECTION COMMISION
+            </h5>
+            <img src="~/Content/INDIANPOLITY.jpg" width="100" height="100px" />
+
+        </td>
+        <td>
+            <h5>4 Book Available</h5>
+        </td>
+        <td>
+            <h5>2st</h5>
+        </td>
+        <td>
+            <h5>M.R.P.333</h5>
+        </td>
+        <td>
+            <h5>Very Good</h5>
+        </td>
+        <td>
+            <h5>No Book Copy Return</h5>
+        </td>
+        <td>
+            <h5><b>Nandini Wairaghde</b><br><br>
+            Hingna, Nagpur<br>
+            Ph.No.7458625413</h5>
+        </td>
+        <td>
+            <h5><b>STAFF SELECTION COMMISION</b>
+            1Book Demanding
+            M.R.P.333</h5>
+        </td>
+        <td>
+            <input type="button" value="Edit" class="btn btn-success" /></br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h5>7.</h5>
+        </td>
+        <td>
+            <h5>
+                DABANG GIRL
+            </h5>
+            <img src="~/Content/d2.jpg" width="100" height="100px" />
+
+
+        </td>
+        <td>
+            <h5>0 Book Available</h5>
+        </td>
+        <td>
+            <h5>2st</h5>
+        </td>
+        <td>
+            <h5>M.R.P.333</h5>
+        </td>
+        <td>
+            <h5>Enjoyable</h5>
+        </td>
+        <td>
+            <h5>No Book Copy Return</h5>
+        </td>
+        <td>
+            <h5><b>Aman Wadake</b><br>
+            Sambhaji Nagar<br>
+            Ph.No.9014742565</h5>
+        </td>
+        <td>
+            <h5><b>DABANG GIRL</b><br>
+            4Book Demanding<br>
+            M.R.P.1332<br>
+            (32 Off)</h5>
+        </td>
+        <td>
+            <input type="button" value="Edit" class="btn btn-success" /></br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h5>8.</h5>
+        </td>
+        <td>
+            <h5>
+                COMICS
+            </h5>
+            <img src="~/Content/download (1).jpg" width="100" height="100px" />
+        </td>
+        <td>
+            <h5>0 Book Available</h5>
+        </td>
+        <td>
+            <h5>2st</h5>
+        </td>
+        <td>
+            <h5>M.R.P.120</h5>
+        </td>
+        <td>
+            <h5>Enjoyable</h5>
+        </td>
+        <td>
+            <h5>No Book Copy Return</h5>
+        </td>
+        <td>
+            <h5><b>Tejashree Wankhede</b><br>
+            wardha<br>
+            Ph.No.7465254136</h5>
+        </td>
+        <td>
+            <h5><b>COMICS</b><br>
+            1Book Demand<br>
+            M.R.P. 120</h5>
+
+        </td>
+        <td>
+            <input type="button" value="Edit" class="btn btn-success" /></br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h5>9.</h5>
+        </td>
+        <td>
+            <h5>
+                GHOSTS
+            </h5>
+            <img src="~/Content/download.jpg" width="100" height="100px" />
+        </td>
+        <td>
+            <h5>0 Book Available</h5>
+        </td>
+        <td>
+            <h5>2st</h5>
+        </td>
+        <td>
+            <h5>M.R.P.333</h5>
+        </td>
+        <td>
+            <h5>Enjoyable</h5>
+        </td>
+        <td>
+            <h5>No Book Copy Return</h5>
+        </td>
+        <td>
+            <h5><b>Abhi Waghmare</b><br>
+            Nanded<br>
+            Ph.No. 7485961425</h5>
+        </td>
+        <td>
+            <h5><b>GHOSTS</b><br>
+            3Book Demanding<br>
+            M.R.P.999<br>
+            (49 off)</h5>
+        </td>
+        <td>
+            <input type="button" value="Edit" class="btn btn-success" /></br>
+        </td>
+    </tr>
+    </tabel>
+
+
+
+
+

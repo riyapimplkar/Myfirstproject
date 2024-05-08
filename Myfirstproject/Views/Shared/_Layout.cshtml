@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFirstProject</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+<link href="~/Content/user.css" rel="stylesheet" />
+
+
+</head>
+<body>
+    @*<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+                    <div class="container">
+                        @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                            <ul class="navbar-nav flex-grow-1">
+                                <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                                <li>@Html.ActionLink("About", "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                                <li>@Html.ActionLink("Contact", "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>*@
+
+    <header>
+
+
+        <nav style="background-color:wheat;">
+            <font style="font-size:large;">
+                <center>
+                    <div>
+                        <a href="~/Home/Index" style="color:darkblue;">Home|</a>
+                        <a href="~/Home/Contact" style="color:darkblue;">Contact|</a>
+                        <a href="~/Home/About" style="color:darkblue;">About|</a>
+                        <a href="~/Product/Index" style="color:darkblue;">Product|</a>
+                        <a href="~/Feedback/FeedIndex" style="color:darkblue;">Feedback|</a>
+                      <a href="~/Registration/Regindex" style="color:darkblue;">Registration</a>
+                    </div>
+            </font>
+              </center>
+        </nav>
+        <marquee>
+            <h1>
+                <style>
+                    .p0 {
+                        font-family:'Colonna MT';
+                    }
+                </style>
+                <font color="broun"> Welcome To Our Books World </font>
+                <br>
+                <p class="p0"><font color="ORANGE">  **Online Book Reading Is Live On** </font></p>
+
+
+            </h1>
+        </marquee>
+
+
+
+    </header>
+
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <Center>
+                <p>&copy; <font color="Blue">Welcome to Our Book Portal </font>
+            </Center>
+        </footer>
+
+
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
